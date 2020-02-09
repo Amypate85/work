@@ -1,0 +1,713 @@
+body{
+    margin:0px;
+    padding; 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr );
+    grid-template-rows: repeat( 4, 1fr );
+    grid-template-areas:
+        "header header header"
+        "main1 main1 sidebar"
+        "main2 main2 sidebar" 
+        "footer footer footer ";
+        position: relative;
+    font-size: 1.2rem;
+    background-color: pink;
+    padding: 0;
+           margin: 0 ; 
+
+}
+
+
+
+@media  (max-width: 700px){ 
+    
+    body{
+        
+          display: grid;
+        text-align: center;
+
+    grid-template-columns: repeat( 1fr );
+    grid-template-rows: repeat(  1fr );
+    grid-template-areas:
+        "header"
+        "main1"
+        "main2"
+        "sidebar"       
+        "footer";
+ }
+    
+    
+    
+    ul{
+        align-items: flex-end;
+            
+
+
+    }   
+    
+    
+    img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+        grid-row: 1/2;
+    word-wrap:break-word;
+    border-radius: 80px;
+    object-fit: cover;
+
+}
+
+        
+
+    
+    
+  
+    
+    
+.btn ::after  {
+    
+        font-family: 'Mr Bedfort', cursive;
+
+}
+
+
+    
+    
+footer{
+    grid-area: footer;
+    background-color: lightblue;
+    grid-column: 1/ -1;
+    padding: ;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    text-align: center;
+    color:lightslategray;
+
+}
+
+
+
+.span{
+    font-family: 'Mr Bedfort', cursive;
+    font-size: 1.3em;
+    padding: 0;
+    color: black;
+    padding-top: 3em;
+    padding-bottom: 10px;
+}
+    
+    
+    
+    .book{
+        
+    }
+}
+
+.foot{
+    color:white;
+    background-color:aliceblue;
+    height: 1vw;
+    padding: 50px 55px 55px;
+    border-radius: 15px;
+    
+}
+
+
+
+.foot
+     background-color: aqua;
+    font-family: 'Mr Bedfort', cursive;
+    background-color:firebrick;
+    border-radius: 155px;
+    padding: 2em 5em 2em;
+    box-shadow: 0px 0px 60px yellow;
+    box-shadow: 0px 0px 60px yellow;
+    color: white;
+}
+    
+    
+    
+
+
+}
+
+
+ .built, {
+      background-color:
+        aqua;
+}
+down{
+       padding-bottom: 0px;
+        
+    }
+
+footer-color:hover ;
+color:  green;     
+}
+    
+.borders{
+        border-top: 15px;
+    border-bottom: 53px;
+    }
+    
+    
+    .main1{
+   
+         font-size: 1.5rem;
+        line-height: 1.5;
+        word-spacing: 3px;
+         display: flex;
+    flex-direction: column;
+    color:white;
+    grid-column:1/-1;
+    grid-row:2/4;
+    justify-content:center;
+        margin: 0px;
+
+ }
+    
+    .main2{
+        
+        grid-area: main2;
+   
+        text-align:left;
+        font-size: 1.5rem;
+
+    }
+    
+    aside{
+        grid-area: aside;
+        text-align: center;
+        grid-column: 1/-1;
+        grid-row: 4/5;
+        line-height: 1.9;
+            padding:1em;
+        display:   relative;
+    }
+    
+    footer{
+         grid-area: footer;
+        grid-column: 1/-1;
+        grid-row: 5/6 ;
+        padding: 2.6em;
+         border-top: ;
+        font-size: 2rem;
+    }
+    .foot{
+        border-top: 
+        4px solid black;
+f         color:white;
+        font-size: 3rem;
+    padding-top: 2em;
+    color:white;
+    background-color:aliceblue;
+    height: 1vw;
+    padding: 50px 55px 55px;
+    border-radius: 15px;
+    
+}
+
+
+
+position:relative;
+
+}
+
+
+.note{
+    
+    }
+    
+}
+.name{
+    width: 100%;
+}
+
+
+
+.webby{
+    
+}
+
+
+
+
+
+
+
+
+
+
+max7^^
+55555555555555555555555555555555555555555555555555555
+
+.main1{
+    grid-area: main1;
+       padding: 2em;
+ font-size: 1.5rem;
+        line-height: 1.5;
+        word-spacing: 3px;
+    color:white;
+    grid-column:1/-1;
+    grid-row:2/3;
+    justify-content:center;
+        margin: 0px;
+}
+
+header{
+ 
+    
+}
+.main2{
+ 
+    
+}
+.one, .two, .three {
+ padding: 0;
+    display:flex;
+        flex-direction: column;
+
+}
+
+
+.main2{
+    grid-area: main2;
+    grid-column: 1/4;
+    grid-row: 3/4;
+
+
+}
+
+.aside{
+        grid-area: sidebar;
+    grid-row:2/4;
+   grid-column:  4/5;
+    
+}
+
+
+
+    font-family: 'Mr Bedfort', cursive;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 702px){
+    
+
+    grid-template-columns: repeat( 4, 1fr );
+    grid-template-rows: repeat( 4, 1fr );
+    grid-template-areas:
+        "header header header header"
+        "main1 main1 main1 sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+    
+}
+
+
+
+
+nav{
+    grid-area: header;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    height: ;
+
+}
+
+
+a{
+    display: block; 
+    text-decoration: none;
+    padding: 0 .3em;
+
+
+}
+
+.logo{
+    
+    position: absolute;
+    top: 8px;
+    left: 35px;
+    bottom: 15px;
+    font-size: 2.9rem;
+font-family: 'Mr Bedfort', cursive;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-end;
+    list-style: none;
+    font-size: 1.7rem;
+font-family: 'Quintessential', cursive;
+
+
+}
+
+
+.book{
+color: white;
+font-family: 'Mr Bedfort', cursive;
+    background-color:firebrick;dddddddddddddddddddddddddddddddddddddddddddddd
+    border-radius: 155px;
+    padding: .2em .5em .02em;
+    box-shadow: 0px 0px 60px yellow;
+    
+}
+
+
+
+
+
+.one, .two, .three {
+    
+    background-color: palegoldenrod;
+    grid-column:3/4;
+    grid-row:2/3;
+    color: black;
+    padding: 4em 2em;
+    color: darkolivegreen;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 702px){
+    
+
+    grid-template-columns: repeat( 4, 1fr );
+    grid-template-rows: repeat( 4, 1fr );
+    grid-template-areas:
+        "header header header header"
+        "main1 main1 main1 sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+    
+}
+
+
+
+
+nav{
+}
+
+
+a{
+    display: block; 
+    text-decoration: none;
+    padding: 0 .3em;
+
+
+}
+
+.logo{
+    
+    position: absolute;
+    top: 8px;
+    left: 35px;
+    bottom: 15px;
+    font-size: 2.9rem;
+font-family: 'Mr Bedfort', cursive;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-end;
+    list-style: none;
+    font-size: 1.7rem;
+font-family: 'Quintessential', cursive;
+
+
+}
+
+
+.book{
+color: white;
+font-family: 'Mr Bedfort', cursive;
+    background-color:firebrick;
+    border-radius: 155px;
+    padding: .2em .5em .02em;
+    box-shadow: 0px 0px 60px yellow;
+    
+}
+
+
+
+
+
+.one, .two, .three {
+    
+    background-color: palegoldenrod;
+    grid-column:3/4;
+    grid-row:2/3;
+    color: black;
+    padding: 4em 2em;
+    color: darkolivegreen;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 701px){
+    
+
+    grid-template-columns: repeat( 4, 1fr );
+    grid-template-rows: repeat( 4, 1fr );
+    grid-template-areas:
+        "header header header header"
+        "main1 main1 main1 sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+    
+}
+
+.main1{
+    grid-area: main1;
+        text-align: center;
+        grid-column: 1/-1;
+        grid-row: 4/5;
+        line-height: 1.9;
+            padding:3em;
+       margin: 0px ; 
+    
+    grid-area: main1;
+    background-color: lightgoldenrodyellow;
+    font-weight: 700;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    background-color:
+    
+}
+
+header{
+    
+}
+
+.one, .two, .three{
+       margin: 0px ; 
+
+    padding: 2em;
+    background-color:darkgoldenrod;
+}
+
+
+.main2{
+    grid-area: main2;
+    grid-column: 1/-1;
+    grid-row: 4/5;
+       margin: 0px ; 
+
+
+}
+
+aside{
+           grid-area: sidebar;
+        text-align: center;
+        grid-column: 1/-1;
+        grid-row: 3/4;
+        line-height: 1.9;
+            padding:1em;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px){
+    
+
+    grid-template-columns: repeat( 4, 1fr );
+    grid-template-rows: repeat( 4, 1fr );
+    grid-template-areas:
+        "header header header header"
+        "main1 main1 main1 sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+    
+}
+
+
+
+.logo{
+    font-size: 3rem;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+555555555555555555555555555555555555555555555555555
+
+
+
+  
+        
+}
+    
+
+aside {
+    grid-area: sidebar;
+    background-color: lightseagreen;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    padding: 2em;
+    color: white;
+    font-size: 2rem;    
+
+}
+
+
+
+.main2{
+    grid-area: main2;
+    background-color: gainsboro;
+    letter-spacing: 0.05rem;
+     padding: 2em;
+    line-height: 1.7;
+    grid-column: 1/4;
+    grid-row:3/4;
+}
+
+.code{
+      background-color:firebrick;
+    border-radius: 155px;
+    box-shadow: 0px 0px 60px yellow;
+     box-shadow: 0px 0px 60px yellow;
+}
+
+
+
+/*
+
+.foot::after{
+        background-color: aqua;
+
+} 
+
+..foot:focus{
+    color:black;
+}
+
+
+.btn:active{
+    background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+
+
+
+
+
